@@ -1,7 +1,7 @@
 {
-  "name": "yardi-voyager-browser-automation",
+  "name": "@browser-automation-hub/yardi-voyager-browser-automation",
   "version": "1.0.0",
-  "description": "Browser automation for Yardi Voyager — automate rent roll extraction, work order management, lease processing, vendor invoice entry, and financial report generation in Yardi.",
+  "description": "Browser automation for Yardi Voyager — automate rent roll extraction, lease processing, and financial reports",
   "main": "src/actions.js",
   "scripts": {
     "start": "node examples/basic-login.js",
@@ -17,7 +17,7 @@
     "browser-automation",
     "puppeteer",
     "playwright",
-    "anchorbrowser",
+    "anchor-browser",
     "nodejs"
   ],
   "license": "MIT",
@@ -36,5 +36,8 @@
   "homepage": "https://github.com/Browser-Automation-Hub/yardi-voyager-browser-automation#readme",
   "bugs": {
     "url": "https://github.com/Browser-Automation-Hub/yardi-voyager-browser-automation/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
